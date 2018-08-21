@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <h1>Mùa đông không lạnh</h1>
+    <div>
+        <a href="{{ url_for('search',g=0) }}">Click vào em đi</a>
+        <br>
+        <a href="{{ url_for('search',g=1) }}">Click vào anh đi</a>
+
+    </div>
+    <hr>
+    <div>
+        <a href="{{ url_for('customer',g=0) }}">Female Customer</a>
+        <br>
+        <a href="{{ url_for('customer',g=1) }}">Male Customer</a>
+    </div>
+    <hr>
+    <div>
+        <a href="{{ url_for('customer_contacted',g=0) }}">Female Customer Contacted: Not Yet</a>
+        <br>
+        <a href="{{ url_for('customer_contacted',g=1) }}">Male Customer Contacted: Not Yet</a>
+    </div>
+    
+
+</body>
+</html>

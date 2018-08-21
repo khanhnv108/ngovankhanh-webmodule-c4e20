@@ -20,7 +20,7 @@ def about_me():
 
 @app.route('/school')
 def school():
-    return redirect("http://techkids.vn",code = 302)
+    return redirect("http://techkids.vn")
 
 
 if __name__ == '__main__':
