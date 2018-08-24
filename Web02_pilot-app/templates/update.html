@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <h1>Update Service</h1>
+    <a href="{{ url_for('index') }}">Trang chủ</a>
+    <br>
+    <br>
+    
+    <form>
+        <label>Name</label>
+        {{ service_update.name }}
+        <br>
+    
+        <label>Yob</label>
+        {{ service_update.yob }}
+        <br>
+    
+        <label>Phone number</label>
+        {{ service_update.phone }}
+        <br>
+
+
+    </form>
+
+
+
+    <br>
+    <form method = "post">
+        <label>Name</label>
+        <input type="text" name="name" value = "{{ service_update.name }}">
+        <br>
+
+        <label>Yob</label>
+        <input type="text" name="yob" value=" {{ service_update.yob }}">
+        <br>
+
+        <label>Phone number</label>
+        <input type="text" name="phone" value=" {{ service_update.phone }}">
+        <br>
+        
+        
+        <input type="Submit" value="Update">
+    </form>
+
+</body>
+</html>

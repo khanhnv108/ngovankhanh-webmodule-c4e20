@@ -8,11 +8,19 @@
 </head>
 <body>
     <h1>Mùa đông không lạnh</h1>
+    <a href="{{ url_for('admin') }}">Quản Lý</a>
+    <hr>
+    
+    <hr>
     <div>
         <a href="{{ url_for('search',g=0) }}">Click vào em đi</a>
         <br>
         <a href="{{ url_for('search',g=1) }}">Click vào anh đi</a>
 
+    </div>
+    <hr>
+    <div>
+        <a href="{{ url_for('customer_full') }}">Customer Full</a>
     </div>
     <hr>
     <div>

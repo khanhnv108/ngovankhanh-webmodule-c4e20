@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{{ url_for('index') }}">Về trang chủ</a>
+    <br>
+    <!-- <a href="{{ url_for('search',g=0) }}">Search</a> -->
+    <div>
+        
+        <p>Tên: {{ service_detail.name }}</p>
+        <p>Năm Sinh: {{ service_detail.yob }}</p>
+        <p>Chiều cao: {{ service_detail.height}} cm </p>
+        <p>Địa chỉ: {{ service_detail.address }}</p>
+        <p>Tính cách: {{ service_detail.description }} </p>
+        {% if service_detail.gender == 0 %}
+            <p>Số đo 3 vòng: {{ service_detail.measurements }} </p>
+        {% else %}
+            <p> </p>
+        {% endif %}
+        
+    </div>
+</body>
+</html>

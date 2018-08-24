@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mùa đông không lạnh</title>
+</head>
+<body>
+    <h1>New Service</h1>
+    <a href="{{ url_for('index') }}">Trang chủ</a>
+    <br>
+    <form method = "post">
+        <label>Name</label>
+        <input type="text" name="name" value ="Khanh">
+        <br>
+
+        <label>Yob</label>
+        <input type="text" name="yob" value="1998">
+        <br>
+
+        <label>Phone number</label>
+        <input type="text" name="phone" value="01653918686">
+        <br>
+
+        
+        <!-- <p>Select Gender:</p>
+        <form>
+            <input type="radio" name = "gender" value = "Nam" checked> Male <br>
+            <input type="radio" name = "gender" value = "Nữ" checked> Female <br>
+            <input type="radio" name= "gender" value = "Other" checked> Other <br>
+        </form> -->
+        
+        
+        <input type="Submit" value="Thêm">
+    </form>
+
+</body>
+</html>
