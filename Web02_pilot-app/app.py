@@ -6,7 +6,7 @@ from models.service import Service
 from models.customer import Customer
 from models.user import User
 from models.order import Order
-import datetime
+from datetime import datetime
 from gmail import GMail, Message
 
 
@@ -206,10 +206,10 @@ def order():
             order = Order(
                 user = user,
                 service = service,
-                time = datetime.datetime.now(),
+                time = datetime.now(),
                 is_accepted = False
             )
-
+ 
             order.save()
 
             session['loggedin'] = False
@@ -229,7 +229,7 @@ def orderPage():
 @app.route('/accepted/<order_id>')
 def accepted(order_id):
     order = Order.objects.with_id(order_id)
-    order.update(set__is_accepted= True)
+    order.update(set__is_accepted = True)
 
     email_user = order.user.email
 
