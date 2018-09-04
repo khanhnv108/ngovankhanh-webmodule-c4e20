@@ -1,6 +1,6 @@
 import mlab
 from models.service import Service
-
+from models.user import User
 mlab.connect()
 
 # all_service = Service.objects()
@@ -10,11 +10,11 @@ mlab.connect()
 # print(first_service['name'])
 
 
-id_to_find ="5b7ed0bc5b2e870660889f1b"
+# id_to_find ="5b7ed0bc5b2e870660889f1b"
 
 # hera = Service.objects(id = id_to_find) ## => [Service obj]
 # hera = Service.objects.get(id = id_to_find) ## => Service obj
-service = Service.objects.with_id(id_to_find)  ## => Service obj
+# service = Service.objects.with_id(id_to_find)  ## => Service obj
 
 
 
@@ -29,3 +29,6 @@ service = Service.objects.with_id(id_to_find)  ## => Service obj
 #     print(service.to_mongo())
 # else:
 #     print("Not found")
+
+found_user =User.objects.get(username="admin",password="admin123")
+print(found_user.id)

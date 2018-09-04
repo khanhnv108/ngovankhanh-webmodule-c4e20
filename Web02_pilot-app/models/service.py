@@ -3,7 +3,7 @@ from mongoengine import *
 #Design pattern (MVC, MVP)
 #Design database
 class Service(Document):
-    image = ImageField()
+    image = StringField()
     name = StringField()
     yob = IntField()
     gender = IntField()

@@ -25,11 +25,12 @@ fake = Faker()
 #     )
 
 
+
 # new_service = Service(
-#     image = '/static/image/female/nguyentrang.jpg',
-#     name ="Nguyễn Ngọc" ,
+#     image = '../static/image/female.jpg',
+#     name ="Thu Nguyễn" ,
 #     yob = randint(1991,1999),
-#     gender = 1,
+#     gender = 0,
 #     height = randint(150,180),
 #     phone = "0979868978",
 #     address ="Hà Nội" ,
@@ -40,15 +41,16 @@ fake = Faker()
 
 # new_service.save()
 
-new_service = Service(
-    name ="Trường Lê" ,
-    yob = randint(1991,1999),
-    gender = 1,
-    height = randint(165,180),
-    phone = "0979868978",
-    address ="Cầu Giấy Hà Nội" ,
-    status = choice([True,False]),
-    description = "Yêu thẻ thao, hòa đồng, thích nuôi cún"
-    )
+# new_service = Service(
+#     image = "../static/image/male.jpg",
+#     name ="Tuấn Anh" ,
+#     yob = randint(1991,1999),
+#     gender = 1,
+#     height = randint(165,180),
+#     phone = "0979868978",
+#     address ="Cầu Giấy, Hà Nội" ,
+#     status = choice([True,False]),
+#     description = "Yêu thẻ thao, hòa đồng, thích nuôi cún"
+#     )
 
-new_service.save()
+# new_service.save()

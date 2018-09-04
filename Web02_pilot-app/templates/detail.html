@@ -8,21 +8,28 @@
 </head>
 <body>
     <a href="{{ url_for('index') }}">Về trang chủ</a>
-    <br>
-    <!-- <a href="{{ url_for('search',g=0) }}">Search</a> -->
+    <br><br>
+    <a href="{{ url_for('logOut') }}">Đăng xuất</a>
+    
+
     <div>
-        
+        <img src = "{{service_detail.image}}" alt = "">
         <p>Tên: {{ service_detail.name }}</p>
         <p>Năm Sinh: {{ service_detail.yob }}</p>
         <p>Chiều cao: {{ service_detail.height}} cm </p>
         <p>Địa chỉ: {{ service_detail.address }}</p>
         <p>Tính cách: {{ service_detail.description }} </p>
         {% if service_detail.gender == 0 %}
-            <p>Số đo 3 vòng: {{ service_detail.measurements }} </p>
+            <p>Số đo 3 vòng:
+                    {{service_detail.measurements[0]}} - 
+                    {{service_detail.measurements[1]}} - 
+                    {{service_detail.measurements[2]}}
+            </p>
         {% else %}
             <p> </p>
         {% endif %}
-        
     </div>
+
+    <a href="{{ url_for('order') }}">Yêu cầu dịch vụ</a>
 </body>
 </html>
