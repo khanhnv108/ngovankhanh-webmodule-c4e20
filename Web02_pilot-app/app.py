@@ -180,7 +180,7 @@ def logIn():
         password = form['password']
 
         found_user =User.objects(username=username,password=password)
-        if found_user:
+        if found_user is not None:
             found_user =User.objects.get(username=username,password=password)
             session['user'] = str(found_user.id)
         
@@ -231,7 +231,7 @@ def accepted(order_id):
     order = Order.objects.with_id(order_id)
     order.update(set__is_accepted = True)
 
-    email_user = order.user.email
+    # email_user = order.user.email
 
 
     gmail = GMail('ngovankhanh108@gmail.com','Khanhart108')
