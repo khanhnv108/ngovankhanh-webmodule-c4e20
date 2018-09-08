@@ -1,0 +1,46 @@
+.text-success {
+    color:green;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.bg-blue {
+    background-color: dodgerblue;
+}
+
+.w-200px {
+    width: 200px;
+}
+
+.h-200px {
+    height: 200px;
+}
+
+.d-inline-block {
+    display:inline-block;
+}
+
+#box-model {
+    border: 1px orangered solid;
+    /* width color style */
+        /* margin: 20px 40px 60px 80px; */
+            /* theo chieu kim dong ho (tren phai duoi trai) */
+        /* margin: 20px 50px; */
+            /* theo truc y x (tren duoi) */
+    /* margin: 50px; */
+    /* padding: 5px 10px 15px 20px; */
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#child-box {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(145, 160, 30);
+}

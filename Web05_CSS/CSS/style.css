@@ -1,0 +1,44 @@
+
+    /* selector{
+        property: value;
+    } */
+
+    /* tag name selector */
+    /* h1{
+        color: red
+    }
+
+    h2{
+        color: blue
+    } */
+
+    /* id selector */
+    #heading-2{
+        color: green;
+        font-family: 'Cookie', cursive;
+        font-size: 40px;
+        
+    }
+    /* class selector */
+    .text-right{
+        text-align: right;
+    }
+
+    /* text-transform
+    font-weight */
+
+
+#background-ele{
+    color: white;
+    height:500px;
+    width: 100%;
+    background-color: lightgreen;
+    background-image: url("https://pic4.zhimg.com/80/v2-ef3e3fb127982179f11ad4ed6d320bc6_r.jpg");
+    background-size: cover;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+    width: 100%;
+    height: 1000px;
+}

@@ -1,0 +1,33 @@
+#header {
+    background-color: lightgreen;
+    width: 90%;
+    height: 100px;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+#content-left {
+    width: 15%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+#content-center {
+    width: 60%;
+    height: 400px;
+    background-color: lightpink;
+}
+
+#content-right {
+    width: 15%;
+    height: 400px;
+    background-color: lightblue;
+}
+
+#footer{
+    width: 90%;
+    height: 100px;
+    background-color: aqua;
+}

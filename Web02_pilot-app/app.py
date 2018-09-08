@@ -231,7 +231,7 @@ def accepted(order_id):
     order = Order.objects.with_id(order_id)
     order.update(set__is_accepted = True)
 
-    # email_user = order.user.email
+    email_user = order.user.email
 
 
     gmail = GMail('ngovankhanh108@gmail.com','Khanhart108')
@@ -241,7 +241,7 @@ def accepted(order_id):
     Cảm ơn bạn đã sử dụng dịch vụ của ‘Mùa Đông Không Lạnh"""
 
     # msg = Message('Test Message',to=email_user,html=html_to_send)
-    msg = Message('Test Message',to='khanhnv100898@gmail.com',html=html_to_send)
+    msg = Message('Test Message',to=email_user ,html=html_to_send)
 
     gmail.send(msg)
 
