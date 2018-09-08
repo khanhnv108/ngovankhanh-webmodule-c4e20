@@ -20,14 +20,20 @@
     height: 800px;
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 50px 0px;    
+    margin: 0px 0px 30px 0px;    
     justify-content: space-between;
 }
 
 #main-right {
     height: 1200px;
     width: 85%;
-    
+    margin: 0px 0px 0px 10px;
+}
+
+#main-right-top {
+    height: 500px;
+    display: flex;
+    flex-flow: column-reverse nowrap;
 }
 
 .d-inline-block {
@@ -50,6 +56,14 @@
     background-color: lightgray;
 }
 
+.bg-light-green {
+    background-color: lightgreen;
+}
+
+.bg-green {
+    background-color: green;
+}
+
 .h-20px {
     height: 20px;
 }
@@ -57,4 +71,13 @@
 .h-380px {
     height: 380px;
 }
+
+.h-80px {
+    height:80px;
+}
+
+.w-389px {
+    width: 389px;
+}
+
 
