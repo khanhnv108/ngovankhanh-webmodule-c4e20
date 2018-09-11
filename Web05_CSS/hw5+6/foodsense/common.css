@@ -1,0 +1,363 @@
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.d-flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* .test {
+    justify-content:space-between;
+
+} */
+
+.justify-between{
+    justify-content:space-between;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-light-pink {
+    background-color: lightpink;
+}
+
+.bg-dark-cyan {
+    background-color: darkcyan;
+}
+
+.bg-light-yellow {
+    background-color: rgb(241, 241, 127);
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.bg-light-green {
+    background-color: lightgreen;
+}
+
+.bg-light-gray {
+    background-color: lightgray;
+}
+
+.bg-green{
+    background-color: rgb(198, 245, 198);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.h-10px {
+    height: 10px;
+}
+
+.h-15px {
+    height: 15px;
+}
+
+.h-20px {
+    height: 20px;
+}
+
+.h-25px {
+    height: 25px;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+.h-35px {
+    height: 35px;
+}
+
+.h-40px {
+    height: 40px;
+}
+
+.h-50px {
+    height: 50px;
+}
+
+.h-60px {
+    height: 60px;
+}
+
+.h-130px {
+    height: 130px;
+}
+
+.h-140px {
+    height: 140px;
+}
+
+.h-150px {
+    height: 150px;
+}
+
+.h-240px {
+    height: 240px;
+}
+
+.h-250px {
+    height: 250px;
+}
+
+.h-400px {
+    height: 400px;
+}
+
+.w-100percent {
+    width: 100%;
+}
+
+.w-60percent {
+    width: 60%;
+}
+
+.w-40percent {
+    width: 40%;
+}
+
+.w-20percent {
+    width: 20%;
+}
+
+.w-24percent {
+    width: 24%;
+}
+
+.w-25percent {
+    width: 25%;
+}
+
+.w-15percent {
+    width: 15%;
+}
+
+.w-10percent {
+    width: 10%;
+}
+
+.w-5percent {
+    width: 5%;
+}
+
+.w-70percent {
+    width: 70%;
+}
+
+.w-75percent {
+    width: 75%;
+}
+
+.w-80percent {
+    width: 80%;
+}
+
+.m-top-5px {
+    margin-top: 5px;
+}
+
+.m-bottom-10px {
+    margin-bottom: 10px;
+}
+
+.m-left-15px {
+    margin-left: 15px;
+}
+
+.m-left-10px {
+    margin-left: 10px;
+}
+
+.m-right-15px {
+    margin-right: 15px;
+}
+
+.m-right-10px {
+    margin-right: 10px;
+}
+
+.p-10px{
+    padding: 10px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+.text-end {
+    text-align:end;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-green {
+    color: rgb(68, 248, 68);
+}
+
+.text-light-blue{
+    color: rgb(168, 250, 223);
+}
+
+.text-light-gray{
+    color: lightgray;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-25px{
+    font-size: 25px;
+}
+
+.font-13px{
+    font-size: 13px;
+}
+
+.font-10px{
+    font-size: 10px;
+}
+
+.f-itanic{
+    font-style: italic;
+}
+
+.box-green {
+    width: 24.9%;
+    height: 60px;
+    display: flex;
+}
+
+.child-box2-main-left {
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+}
+
+.box-main-right-bottom {
+    width: 24%;
+    height: 410px;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.border-2px-light-bue {
+    border : 2px lightblue solid;
+}
+
+.border-top-2px-light-bue-solid {
+    border-top : 2px lightblue solid;
+}
+
+.border-1px-light-bue-dashed {
+    border : 1px lightblue dashed;
+}
+
+.border-bottom-1px-light-bue-dashed {
+    /* border-color: lightblue;
+    border-style: dashed;
+    border-width: 1px; */
+    border-bottom: 1px lightblue dashed;
+}
+
+.logo {
+    background-image: url(static/image/page-logo.png);
+}
+
+.blog {
+    background-image:url(static/image/icons/nav-blog.png);
+}
+
+.a-list {
+    background-image: url(static/image/icons/nav-alist.png);
+}
+
+.tastemakers {
+    background-image: url(static/image/icons/nav-tastemakers.png);
+}
+
+.contribute {
+    background-image: url(static/image/icons/nav-contribute.png);
+}
+
+.about {
+    background-image: url(static/image/icons/nav-about.png);
+}
+
+.header {
+    background-image: url(static/image/header.jpg);
+}
+
+.cookbooks {
+    background-image: url(static/image/cookbooks-blog.jpg);
+}
+
+.potato {
+    background-image: url(static/image/potato.jpg);
+}
+
+.dinner {
+    background-image: url(static/image/dinner-blog.jpg);
+}
+
+.pinteres {
+    background-image: url(static/image/pinterest.jpg);
+}
+
+.twitter {
+    background-image: url(static/image/icons/icon-twitter.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(static/image/icons/icon-facebook.png);
+}
+
+.rss {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(static/image/icons/icon-rss.png);
+}
+
+.mail {
+    background-image: url(static/image/icons/mail_icon_1x.png);
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.icon{
+    background-size: cover;
+}
+
+.font-gamja-flower{
+    font-family: 'Gamja Flower', cursive;
+}

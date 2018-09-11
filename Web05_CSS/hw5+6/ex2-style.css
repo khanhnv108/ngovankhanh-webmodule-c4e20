@@ -1,0 +1,162 @@
+#main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+#main-left {
+    height: 1200px;
+    width: 10%;
+}
+
+#logo {
+    height: 100px;
+}
+
+#box-1-left {
+    margin: 20px 0px 40px 0px;
+}
+
+#box-2-left {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 0px;    
+    justify-content: space-between;
+}
+
+#main-right {
+    height: 1200px;
+    width: 70%;
+    margin: 0px 0px 0px 10px;
+}
+
+#main-right-top {
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#box-green-main-right-top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.box-green {
+    width: 25%;
+    height: 50px;
+    margin-left:1px;
+}
+
+#box-child {
+    width: 100%;
+    height: 50px;
+}
+
+#box-child-white {
+    width: 25%;
+    height: 25px;
+}
+
+#box-child-black {
+    width: 48%;
+    height: 25px;
+}
+
+#main-right-between {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 10px 0px;
+}
+
+#main-right-bottom {
+    display: flex;
+    width:100%;
+    height: 570px;
+}
+
+
+#footer {
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+}
+
+.box-child-bottom {
+    width: 25%;
+    height: 250px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.d-inline-block {
+    display: inline-block;
+}
+
+.bg-light-pink {
+    background-color: lightpink;
+}
+
+.bg-dark-cyan {
+    background-color: darkcyan;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.bg-light-gray {
+    background-color: lightgray;
+}
+
+.bg-light-green {
+    background-color: lightgreen;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.h-20px {
+    height: 20px;
+}
+
+.h-380px {
+    height: 380px;
+}
+
+.h-80px {
+    height:80px;
+}
+
+.h-70px {
+    height:50px;
+}
+
+.w-125px {
+    width: 125px;
+}
+
+.w-70p {
+    width: 70%;
+}
+
+/* common.css */
+/* style.css */

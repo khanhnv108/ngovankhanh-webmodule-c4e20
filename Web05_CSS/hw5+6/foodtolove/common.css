@@ -1,0 +1,69 @@
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content {
+    justify-content: space-between;
+}
+
+.bg-light-gray{
+    background-color: lightgray;
+}
+
+.bg-light-pink{
+    background-color: lightpink;
+}
+
+.bg-light-green {
+    background-color: lightgreen;
+}
+
+.bg-light-blue {
+    background-color: lightblue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-dark-cyan {
+    background-color: darkcyan;
+}
+
+.box-main-bottom-left {
+    width: 24%;
+    height: 640px;
+}
+
+.child-box {
+    width: 100%;
+    height: 197px;
+}
+
+.w-100percent {
+    width: 100%;
+}
+
+.w-80percent {
+    width: 80%;
+}
+
+.h-30px {
+    height: 30px;
+}
+
+.h-650px {
+    height: 650px;
+}
+
+.margin-top-5px {
+    margin-top: 5px;
+}
