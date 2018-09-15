@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mùa đông không lạnh</title>
+    {% include "meta-data.html" %}
 </head>
 <body>
-    <h1>Mùa đông không lạnh</h1>
-    <a href="{{ url_for('admin') }}">Admin </a><br><br>
+    {% include "homepage/navigation.html" %}
+
+    {% include "homepage/carousel.html" %}
+
+    {% include "homepage/main1.html" %}
+
+    {% include "homepage/main2.html" %}
+
+    {% include "homepage/main3.html" %}
+
+    {% include "homepage/footer.html" %}
+
+
+
+    <!-- <a href="{{ url_for('admin') }}">Admin </a><br><br>
     <a href="{{ url_for('orderPage') }}">Order page</a><br><br>
     <a href="{{ url_for('logIn') }}">Đăng nhập</a>
   
@@ -35,7 +49,7 @@
         <a href="{{ url_for('customer_contacted',g=0) }}">Female Customer Contacted: Not Yet</a>
         <br>
         <a href="{{ url_for('customer_contacted',g=1) }}">Male Customer Contacted: Not Yet</a>
-    </div>
+    </div> -->
     
 
 </body>

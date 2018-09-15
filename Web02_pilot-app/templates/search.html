@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mùa đông không lạnh </title>
+    {% include"meta-data.html" %}
 </head>
 <body>
-    <h1>Search Page</h1>
+    {% include"search/navigation.html" %}
+
+    {% include"search/carousel.html" %}
+
+    {% include"search/main1.html" %}
+
+    {% include"search/main2.html" %}
+
+    <!-- <h1>Search Page</h1>
     <a href="{{ url_for('index') }}">Về trang chủ</a>
     {% for service in all_service %}
         <div>
-            <!-- image -->
             {% if service.gender == 1 %}
                 <img src="../static/image/male-profile.jpg" alt="">
             {% else %}
@@ -24,6 +32,6 @@
             <a href="{{ url_for('detail',service_id = service.id) }}">Chi Tiết</a>
             <hr>
         </div>
-    {% endfor %}
+    {% endfor %} -->
 </body>
 </html>
